@@ -1,0 +1,57 @@
+# Project Structure
+
+- frontend/
+  - public/
+    - images/: Static images used in the application.
+    - vite.svg: Default Vite logo file.
+  - src/
+    - api/
+      - formApi.js: Functions to handle form-related API requests.
+      - supabaseApi.js: Functions for interacting with the Supabase backend.
+    - assets/styles/: Directory for shared and global stylesheets.
+    - components/
+      - auth/
+        - RequireAuth.jsx: Component to handle route protection requiring authentication.
+      - common/: Common reusable UI components.
+      - Dashboard/: Components specific to the user dashboard.
+      - form/: Components for handling forms and inputs.
+    - context/
+      - auth/: Manages authentication-related state.
+      - recommendations/: Context for managing recommendation data and logic.
+    - data/
+      - mockSurveyData.json: Mock data for survey inputs and testing.
+    - lib/
+      - utils.js: Utility functions and reusable helpers.
+    - pages/
+      - auth/: Pages related to authentication.
+        - CareerDashboard.jsx: Page for user career dashboard.
+        - ExplorePage.jsx: Page to explore career-related content.
+        - FormPage.jsx: Page for inputting form data.
+        - FormPage.test.jsx: Test file for the FormPage component.
+        - HomePage.jsx: Main landing page of the app.
+        - TimelinePage.jsx: Displays user career timeline and milestones.
+    - services/: Modules for handling business logic or external data fetching.
+    - styles/
+      - CareerDashboard.css: Styles for the CareerDashboard page.
+      - CareerTimeline.css: Styles for the TimelinePage.
+      - CategoryTab.css: Styles for category tabs on pages.
+      - ExplorePage.css: Styles for the ExplorePage component.
+    - utils/: Directory for utility functions shared across the app.
+    - App.css: Global CSS file for the main App component.
+    - App.jsx: Root React component for the application.
+    - main.jsx: Entry point that renders the App component.
+    - setupTests.js: Configuration file for setting up unit tests.
+
+  - package.json: Defines frontend dependencies and scripts.
+  - tailwind.config.js: Tailwind CSS configuration.
+  - vite.config.js: Vite configuration for development and build.
+
+- backend/
+  - services/
+    - __init__.py: Initializes the services module.
+    - ai_service.py: Manages AI-related services and logic.
+    - database.py: Handles database connections and operations.
+  - app.py: Main entry point for the backend application.
+  - config.py: Configuration settings for the backend services.
+  - requirements.txt: Python dependencies for backend development.
+  - utils.py: Utility functions used across the backend.

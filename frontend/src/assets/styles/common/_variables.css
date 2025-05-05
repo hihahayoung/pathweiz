@@ -1,0 +1,21 @@
+/* src/assets/styles/common/_variables.css */
+:root {
+    --primary-color: #0074D9;
+    --primary-color-hover: #005fa3;
+    --secondary-color: #FF4136;
+    --secondary-color-hover: #e63946;
+    --background-color: #f4f4f4;
+    --nav-background: #3399FF;
+    --nav-text-color: #fff;
+    --text-color: #333;
+    --border-color: #ccc;
+    --error-color: #FF4136;
+    --success-color: #2ECC40;
+    --button-bg: #0074D9;
+    --button-text: #fff;
+    --button-hover-bg: #005fa3;
+    --button-active-scale: 0.98;
+    --welcome-color: #333;
+  }
+  
+  

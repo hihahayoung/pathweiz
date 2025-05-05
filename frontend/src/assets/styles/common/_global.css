@@ -1,0 +1,14 @@
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set global styles for the body element */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color); /* Use CSS variable for background color */
+    color: var(--text-color); /* Use CSS variable for text color */
+    line-height: 1.6; /* Set line height for better readability */
+}

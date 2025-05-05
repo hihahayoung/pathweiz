@@ -1,0 +1,19 @@
+/* src/assets/styles/common/_utilities.css */
+button:hover {
+    opacity: 0.9;
+  }
+  
+  button:active {
+    transform: scale(var(--button-active-scale));
+  }
+  
+  .Toastify__toast--success {
+    background: var(--success-color);
+    color: #fff;
+  }
+  
+  .Toastify__toast--error {
+    background: var(--error-color);
+    color: #fff;
+  }
+  

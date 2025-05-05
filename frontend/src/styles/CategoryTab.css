@@ -1,0 +1,15 @@
+.category-tab {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 15px;
+  color: rgb(59, 59, 59);
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+  
+.category-text {
+  display: block;
+}

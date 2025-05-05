@@ -1,0 +1,42 @@
+/* src/assets/styles/pages/AboutPage.css */
+
+.bg-grid-white {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .story-image-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  /* Added spacing for better layout */
+  section {
+    padding: 40px 0; /* Increased vertical padding for sections */
+  }
+  
+  h2 {
+    margin-bottom: 24px; /* Increased margin below headings */
+  }
+  
+  p {
+    margin-bottom: 16px; /* Increased margin below paragraphs */
+  }

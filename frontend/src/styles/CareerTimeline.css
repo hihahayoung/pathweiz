@@ -1,0 +1,30 @@
+.career-timeline {
+    margin-top: 40px;
+}
+
+.timeline-header {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px auto;
+}
+
+.vertical-timeline-element-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vertical-timeline-element {
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.vertical-timeline-element-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}

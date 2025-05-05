@@ -1,0 +1,47 @@
+CS162 Project  
+Designed and Developed by: Pathweiz
+🔗 Link to Deployed App:  
+
+About
+
+Description and Purpose  
+Pathweiz is a web-based platform designed to help college students discover new career possibilities. By gathering user input, such as academic interests and personal hobbies, and then leveraging AI-generated recommendations, Pathweiz provides personalized career guidance that goes beyond the obvious. Its goal is to simplify the confusion surrounding career exploration by highlighting unique opportunities, actionable steps, and relevant resources that students can actually use.
+
+Inspiration  
+This project emerged from first-hand experiences and research into the career-related anxieties faced by college students, particularly those at Minerva University who navigate an interdisciplinary and global curriculum. Drawing from user feedback, existing career discovery tools, and innovative platforms like “Genius” for music interpretation, we realized the need for a similarly user-driven, adaptable resource that evolves with the user’s growth and changing job market landscapes. Our approach synthesizes personalized feedback, continuous updates, and tangible next steps, reminiscent of a supportive mentor or career coach you can access anytime.
+
+Tech Stack
+
+Frontend: React, Tailwind, Vite  
+Backend: Python/Node.js, Supabase (PostgreSQL), OpenAI/Gemini for AI-driven suggestions
+
+Features
+
+Main Features  
+1. User Registration:
+    * Users can create accounts using their emails and passwords.
+    * Personal profiles inform more accurate career recommendations.
+
+2. Personalized Questionnaires:
+    * Users input their interests, hobbies, and fields of study.
+    * The platform leverages this input for AI-driven career suggestions.
+
+3. AI-Generated Career Recommendations:
+    * System calls Gemini/OpenAI to produce 2-3 tailored career ideas.
+    * Each suggestion includes a concise summary and a brief rationale.
+    * Users can click a career card to view a more detailed description and suggested actions.
+
+4. Actionable Career Timelines:
+    * After receiving recommendations, users can view dynamic timelines with milestones.
+    * Timelines are linked to each recommended career, helping users understand their next steps.
+    * Users can toggle between different recommended careers to see distinct timelines.
+
+5. Evolving Quiz and Beta Testing:
+    * The quiz can be updated and refined based on user feedback and research.
+    * Early beta tests allow the team to iterate on question sets and improve recommendation quality.
+
+6. Responsive and Intuitive UI:
+    * Clean, minimal styling ensures a user-friendly experience.
+    * Future improvements may include enhanced styling for expanded career cards, refined icons, and better visual consistency.
+ 
+Note: This project is an evolving prototype. Features like automated action item generation, improved styling, and expanded questionnaires will be added or refined as we continue to collect user feedback and iterate on the platform.
